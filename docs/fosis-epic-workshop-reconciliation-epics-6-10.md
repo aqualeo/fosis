@@ -1,7 +1,7 @@
 # FOSIS Epic Workshop Reconciliation: Epics 6–10
 
 **Date:** 6 October 2026  
-**Purpose:** Record workshop decisions and correct epic numbering against the existing FOSIS GitHub issue catalogue. This is a discussion addendum; the epic issues remain the source of truth and should be updated with any approved story changes.
+**Purpose:** Preserve the workshop decisions and reconcile their working numbers against the existing FOSIS GitHub epic catalogue. This is a discussion addendum; the epic issues remain the source of truth and should be updated with any approved story changes.
 
 ## Source issues
 
@@ -12,11 +12,31 @@
 - [Epic 10 — Leave & Absence Management](https://github.com/aqualeo/fosis/issues/10)
 - [Epic 11 — Assessment Framework](https://github.com/aqualeo/fosis/issues/11)
 
-## Numbering correction
+## Working numbers and catalogue numbers
 
-The workshop initially treated teaching groups as Epic 7. The GitHub catalogue places teaching groups under **Epic 6**; **Epic 7 is Options & Subject Selection**. The earlier teaching-group discussion should therefore be reconciled into Epic 6, not recorded as Epic 7 decisions.
+The workshop used the following working sequence. The catalogue sequence is canonical:
 
-Epic 6 already includes group membership, teacher assignment, secondary/support assignments, effective dates, set/band changes, capacity, and historical membership. Workshop decisions to reconcile there include a designated teaching-group leader, role templates for schools of different sizes, HOD review of subject/session requirements, and reasoned approval of changes. The precise boundary between Epic 6 membership and Epic 7 option allocation remains to be mapped so that the two do not duplicate student-to-group assignments.
+| Topic discussed | Earlier workshop number | GitHub catalogue number |
+|---|---:|---:|
+| Teaching groups and teaching staff | Epic 7 | **Epic 6 — Curriculum, Subjects & Teaching Groups** |
+| Timetabling | Epic 8 | **Epic 8 — Timetabling** |
+| Attendance | Epic 9 | **Epic 9 — Attendance** |
+| Leave and absence | Epic 10 | **Epic 10 — Leave & Absence Management** |
+
+The numbering difference is limited to the teaching-group discussion. **Epic 7 in the catalogue is Options & Subject Selection**, not teaching groups. The earlier discussion is retained below under its catalogue home so that its decisions are not lost or mistaken for Epic 7 scope.
+
+## Epic 6 — Curriculum, Subjects & Teaching Groups
+
+The catalogue already includes teaching-group membership, teacher assignment, secondary/support assignments, effective dates, set/band changes, capacity, and historical membership.
+
+Workshop decisions to reconcile into Epic 6:
+- Each teaching group has a designated leader.
+- Staff assignment is defined for each required teaching session.
+- The HOD (or the configured academic lead in smaller schools) reviews subject/session requirements and assignments.
+- Small schools can configure one person to cover multiple roles.
+- Changes to recommendations require a reason; a templated reason or a free-text “Other” reason can be recorded. AI may propose a concise reason summary for human approval.
+
+**Open boundary:** Epic 6 owns teaching groups and their membership/teacher assignments; Epic 7 owns subject choices and allocation decisions. Map how an approved Epic 7 allocation updates Epic 6 membership, retaining the preference, allocation decision and membership history without duplicating ownership.
 
 ## Epic 7 — Options & Subject Selection
 
@@ -24,7 +44,7 @@ Epic 6 already includes group membership, teacher assignment, secondary/support 
 
 The GitHub issue identifies option windows, eligibility, ranked preferences, prerequisites, option blocks, capacity, student/parent submission, approval, allocation, clash detection, alternatives/waitlists, change requests, and finalisation/publication.
 
-**Architecture touchpoint:** Epic 7 consumes the curriculum and subject catalogue from Epic 6 and produces approved student choices/allocations for Epic 6 group membership and Epic 8 timetabling. The data model should preserve submitted preferences separately from the final allocation and retain allocation/change history.
+**Architecture touchpoint:** Epic 7 consumes the curriculum and subject catalogue from Epic 6 and produces approved student choices/allocations for Epic 6 group membership and Epic 8 timetabling. Preserve submitted preferences separately from the final allocation and retain allocation/change history.
 
 ## Epic 8 — Timetabling
 
