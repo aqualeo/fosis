@@ -17,3 +17,6 @@ FOSIS is an AI-first, multi-tenant Student Information System covering nursery t
 
 ## Decision status
 These documents record decisions already agreed during FOSIS requirements elaboration. Items not yet decided are explicitly marked TBD rather than assumed.
+
+## Project-wide implementation blueprint
+For the draft whole-project architecture, detailed cross-epic design, logical/physical data model, development plan for Epics 1–41 and individually scoped build prompts, see [FOSIS Blueprint](../fosis-blueprint/README.md). These new documents extend, rather than replace, this baseline architecture; engineering ADRs remain subject to approval.
