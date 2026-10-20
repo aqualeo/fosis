@@ -8,6 +8,7 @@
 3. [03 — Conceptual, Logical and Proposed Physical Data Model](03-data-model.md): domain entities for 41 epics, ER relationship view, cross-tenant keys/RLS design proposal and draft PostgreSQL examples.
 4. [04 — Whole-Project Development Plan](04-development-plan.md): wave/dependency plan, requirements/build readiness, risk, team/cadence assumptions and DoR/DoD.
 5. [05 — Individual Build Prompts](05-build-prompts/README.md): eight bounded build-ready/conditionally ready packages BP-00 to BP-07, each with direct reference to Architecture, Design, Data Model and Development Plan.
+6. [06 — Epic 15 Safeguarding Decision Baseline (20 October 2026)](06-epic-15-safeguarding-decision-baseline-2026-10-20.md): consolidated approved safeguarding discussions, case/role/incident/asset workflows, acceptance-test baseline and open implementation gates. The epic's GitHub issues remain canonical.
 
 ## How to use this set
 - Read **all three primary documents** before planning a build prompt. Then consult relevant GitHub story/epic issues; issue acceptance criteria remain canonical where design documents are more general.
