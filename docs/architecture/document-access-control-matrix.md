@@ -91,3 +91,8 @@ V=view metadata/content where authorised; U=upload/create; R=replace/update by n
 - Sensitive medical, inclusion/SEN, safeguarding and confidential pastoral access remains separately authorised and case/need scoped; specialist verification requires an appropriately authorised specialist, including a permitted external provider where necessary.
 - Enforce SoD by individual identity regardless of multiple assigned roles, including independent document-disposal approval.
 - Implement bundle eligibility/configuration in Epic 31; any effect of crossing either size threshold on existing assignments requires an explicit transition policy, not automatic privilege removal mid-workflow.
+
+### Approved size-threshold transition — 21 October 2026
+- If a qualifying Small School exceeds either eligibility threshold during an academic year, **retain the existing Small School Principal Role Bundle through the remainder of that academic year**, with its existing sensitive-access and SoD safeguards intact.
+- At the start of the next academic year, require a school role-assignment review and transition to the appropriate standard role configuration if the school no longer qualifies. Notify school administrators/principal ahead of the review; do not silently revoke permissions mid-year.
+- Independently revoke permissions immediately where required for security, role departure, legal or safeguarding reasons; the size-based grace period is not a security exception.
