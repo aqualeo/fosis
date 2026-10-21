@@ -43,3 +43,10 @@ V=view metadata/content where authorised; U=upload/create; R=replace/update by n
 2. Which document categories are parent-downloadable versus view-only by default?
 3. Which school-level document classes require a separate publisher/approver?
 4. Should the platform provide an emergency break-glass document-access process, and for which categories? Existing safeguarding break-glass policy must take precedence.
+
+## Approved retention floor — 21 October 2026
+- Once approved, a student or school document **must not be permanently deleted before the applicable statutory/regulatory minimum retention period** has elapsed. This applies regardless of school role, including principals and administrators.
+- Determine the retention rule by jurisdiction, document category and any applicable sector/child-protection obligations; calculate an earliest permissible disposal date. Do **not** invent a universal number of years; legal validation and Epic 26 policy configuration are required.
+- Superseding, invalidating, correcting or restricting visibility of a document must not destroy its approved original/version or provenance during mandatory retention.
+- Once the minimum period has elapsed, disposal still requires an authorised, auditable workflow and checks for legal hold, active investigation, contractual or other longer obligations. Retention expiry is not automatic deletion.
+- A lawful exception or mandatory erasure obligation must be assessed through central legal/governance policy, not ad hoc admin override.
