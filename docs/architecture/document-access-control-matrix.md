@@ -66,3 +66,9 @@ V=view metadata/content where authorised; U=upload/create; R=replace/update by n
 - Parent-supplied documents remain accessible to the submitting parent/authorised guardian subject to the child's relationship and applicable legal/case restrictions. School-created routine documents that are parent-visible are likewise viewable and downloadable.
 - Document origin (parent versus school) alone does not determine visibility; classification, parent/child relationship and domain-specific restrictions decide whether access is granted at all. Confidential safeguarding or other restricted documents remain hidden unless explicitly authorised.
 - Downloads remain authenticated, access-checked and audited, with applicable secure-export controls. Do not claim downloaded copies can be revoked once distributed.
+
+### Approved parent correction/versioning without deletion — 21 October 2026
+- Parents/guardians **cannot directly delete submitted student documents**, even when they originally uploaded them.
+- An authorised parent may submit a corrected or renewed replacement version, or request correction of metadata/content through the designated workflow. Preserve original submission, version history, provenance and review decisions under the applicable retention policy.
+- Replacement submissions require the normal school intake and, where relevant, specialist verification; do not silently overwrite the previously approved version.
+- Parent access to request correction/version replacement does not grant document disposal or approval permissions.
