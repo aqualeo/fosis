@@ -39,7 +39,7 @@ V=view metadata/content where authorised; U=upload/create; R=replace/update by n
 - **Implementation:** combine RBAC (role/action) with ABAC (tenant, child relationship, classification, domain, case assignment, state); enforce at API and storage access layer.
 
 ## Decisions still to confirm
-1. Which school role(s) may request disposal and who must approve it? Is a two-person approval required for sensitive and official records?
+1. Which independent approver roles are eligible for disposal requests, including when a principal is the requester? Are additional domain-specialist approvals needed for sensitive records?
 2. Which document categories are parent-downloadable versus view-only by default?
 3. Which school-level document classes require a separate publisher/approver?
 4. Should the platform provide an emergency break-glass document-access process, and for which categories? Existing safeguarding break-glass policy must take precedence.
@@ -50,3 +50,9 @@ V=view metadata/content where authorised; U=upload/create; R=replace/update by n
 - Superseding, invalidating, correcting or restricting visibility of a document must not destroy its approved original/version or provenance during mandatory retention.
 - Once the minimum period has elapsed, disposal still requires an authorised, auditable workflow and checks for legal hold, active investigation, contractual or other longer obligations. Retention expiry is not automatic deletion.
 - A lawful exception or mandatory erasure obligation must be assessed through central legal/governance policy, not ad hoc admin override.
+
+## Approved segregation of duties (SoD) — 21 October 2026
+- RBAC grants eligibility to perform an action; **SoD is a separate workflow control** preventing incompatible actions by the same individual on the same document/request. Enforce on backend identity and audit, not merely UI role labels. Holding multiple roles does not bypass SoD.
+- After the legally required retention period, a **school administrator or principal** may submit a reasoned disposal request. The requester **cannot approve their own request**. Require approval by a separately authorised individual and confirm retention, legal holds and other constraints before disposal. If no eligible independent approver exists, keep the request pending and route to an authorised governance/escalation role; never self-approve.
+- Record requester identity, approval/denial identity, reasons, timestamps, document versions, policy checks and eventual disposal outcome. Specialist consultation/additional approval for sensitive documents remains subject to domain rules and further design.
+- SoD also applies to other high-risk workflows as configured; specific maker/checker pairs beyond disposal require separate product decisions. Routine authorised school upload-and-accept remains a permitted one-step workflow, while substantive specialist verification stays independent of administrative intake.
