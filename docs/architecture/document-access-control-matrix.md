@@ -60,3 +60,9 @@ V=view metadata/content where authorised; U=upload/create; R=replace/update by n
 ### Approved independent approver for principal requests — 21 October 2026
 - If a principal requests disposal, another appropriately authorised **senior school official** may approve; the approver need not be higher in the organisational hierarchy. They must be a distinct individual with explicit disposal-approval permission and no conflict of interest.
 - For small schools without an eligible second person, retain the request pending and use an approved external/governance escalation route; never waive independent approval.
+
+### Approved parent view/download parity — 21 October 2026
+- For a parent/guardian authorised to view a specific student document, **download is also permitted**; do not implement a parent 'view-only' document permission. This is document-level permission parity, not universal parent access.
+- Parent-supplied documents remain accessible to the submitting parent/authorised guardian subject to the child's relationship and applicable legal/case restrictions. School-created routine documents that are parent-visible are likewise viewable and downloadable.
+- Document origin (parent versus school) alone does not determine visibility; classification, parent/child relationship and domain-specific restrictions decide whether access is granted at all. Confidential safeguarding or other restricted documents remain hidden unless explicitly authorised.
+- Downloads remain authenticated, access-checked and audited, with applicable secure-export controls. Do not claim downloaded copies can be revoked once distributed.
