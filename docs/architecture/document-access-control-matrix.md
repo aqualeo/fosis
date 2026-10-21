@@ -84,3 +84,10 @@ V=view metadata/content where authorised; U=upload/create; R=replace/update by n
 - Segregation of duties is identity-based across combined roles: a principal cannot approve their own disposal request, even with both requester and approver roles.
 - When no qualified specialist is employed, allow school-authorised external specialists or permitted delegation for substantive review rather than treating the principal's administrative role as clinical verification.
 - Proposed product design only: pending user approval, and under-ten staffing is a suggested configuration trigger rather than a hard-coded authorisation exemption.
+
+## Approved small-school definition and principal bundle — 21 October 2026
+- A **Small School** qualifies only when **enrolled student count < 100 AND staff headcount < 10**. Both conditions must hold; exactly 100 students or exactly 10 staff does not qualify under this definition.
+- Provide a predefined, configurable **Small School Principal Role Bundle** combining compatible routine operational permissions (e.g. admissions, attendance, student document intake and routine administrative approval). Do not grant unrestricted superuser rights.
+- Sensitive medical, inclusion/SEN, safeguarding and confidential pastoral access remains separately authorised and case/need scoped; specialist verification requires an appropriately authorised specialist, including a permitted external provider where necessary.
+- Enforce SoD by individual identity regardless of multiple assigned roles, including independent document-disposal approval.
+- Implement bundle eligibility/configuration in Epic 31; any effect of crossing either size threshold on existing assignments requires an explicit transition policy, not automatic privilege removal mid-workflow.
